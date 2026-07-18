@@ -1,6 +1,6 @@
 -- Leetcode 1179
 
-ELECT
+SELECT
     id,
     MAX(CASE WHEN month = 'Jan' THEN revenue END) AS Jan_Revenue,
     MAX(CASE WHEN month = 'Feb' THEN revenue END) AS Feb_Revenue,
